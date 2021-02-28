@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            font: normal 20pt arial;
+            color: rgb(196, 49, 73);
+        }
+    </style>
+
+</head>
+<body>
+
+    <script>
+        var nome = window.prompt('Qual é seu nome, princesa?')
+        document.write(`Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras! <br>`)//contador de caracteres da string
+        
+        document.write(`Seu nome ao contrário é <strong>${nome.split('').reverse().join('')}</strong>`) //inverte texto da string
+    </script>
+</body>
+</html>
